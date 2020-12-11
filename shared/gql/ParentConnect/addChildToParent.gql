@@ -1,0 +1,16 @@
+mutation{
+	addChildToParent(
+    parentId:"5fcce4bb3d5c232f8c96eb34",
+    childId:"5fccab9bf090010a48535f5c",
+    otp:"13223"){
+    id
+    name
+  	role
+    phone
+    children
+    parent
+    referralCode
+    createdAt
+    updatedAt
+  }  
+}

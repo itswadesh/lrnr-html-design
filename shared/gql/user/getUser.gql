@@ -1,0 +1,17 @@
+query{
+  user(id:"5fd1dc317dc10a129468e638"){
+  id
+  name
+  role
+  phone
+  currentBalance
+  otp
+  walletId
+  children
+  parent
+  products
+  referralCode
+  referedFrom
+  referedUsers
+  }
+}

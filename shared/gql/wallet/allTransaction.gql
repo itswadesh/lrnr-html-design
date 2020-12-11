@@ -1,0 +1,13 @@
+query{
+  allTransactions{
+    id
+    amount
+    remark
+    direction
+    userId
+    balance
+    referedUser
+    createdAt
+    updatedAt
+  }
+}

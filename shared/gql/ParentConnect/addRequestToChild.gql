@@ -1,0 +1,15 @@
+mutation {
+  requestToChild(
+    parentId: "5fcce4bb3d5c232f8c96eb34"
+    childId: "5fccab9bf090010a48535f5c"
+  ) {
+    id
+    name
+    role
+    phone
+    children
+    referralCode
+    createdAt
+    updatedAt
+  }
+}

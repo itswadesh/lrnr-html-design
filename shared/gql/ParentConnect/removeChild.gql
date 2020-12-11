@@ -1,0 +1,15 @@
+mutation{
+  removeChildFromParent(
+    parentId:"5fcce3df3d5c232f8c96eb33",
+    childId:"5fcca8616a79922708718468"){
+    id
+    name
+    role
+    phone
+    parent
+    children
+    referedFrom
+    referedUsers
+    referralCode 
+  }
+}

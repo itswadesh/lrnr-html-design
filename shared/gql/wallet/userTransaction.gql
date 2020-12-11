@@ -1,0 +1,12 @@
+query{
+  userTransaction(userId:"5fd225f5689b1e2dac8fce28"){
+    id
+    amount
+    remark
+    direction
+    userId
+    referedUser
+    createdAt
+    updatedAt
+  }
+}

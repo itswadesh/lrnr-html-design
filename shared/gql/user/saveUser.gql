@@ -1,0 +1,36 @@
+# Choose role = author ,parent By Default its user
+
+mutation{
+  saveUser(
+    name:"prakash",
+    phone:"9694039047",
+    role:"author"){    
+    id
+    name
+    role
+    phone
+    referedFrom
+    referedUsers
+    referralCode
+  }
+}
+
+
+# Choose role = author ,parent By Default its user
+
+mutation{
+  saveUser(
+    id:"5fcfc31c7e38853a20e8e9f8",
+    name:"MasterJi",
+    phone:"9694039044",
+    role:"teacher"){    
+    id
+    name
+    role
+    phone
+    currentBalance
+    referedFrom
+    referedUsers
+    referralCode
+  }
+}

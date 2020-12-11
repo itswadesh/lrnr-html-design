@@ -1,0 +1,14 @@
+mutation{
+  bookProduct(userId:"5fd225f5689b1e2dac8fce28",productId:"5fd22638689b1e2dac8fce29"){
+  id
+  name	
+  role
+  phone
+  currentBalance
+  otp
+  products
+  referralCode
+  referedFrom
+  referedUsers
+  }
+}

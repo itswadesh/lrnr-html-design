@@ -1,0 +1,5 @@
+mutation{
+  addMoney(userId:"5fd225c5689b1e2dac8fce25",amount:1000){
+    id
+  }
+}

@@ -1,0 +1,11 @@
+query{
+product(id:"5fd1ec026a8fca1c7816f047"){
+     id
+    courseName
+    scheduleDateTime
+    pricePerHour
+    users
+    seats
+    postedBy
+}
+}

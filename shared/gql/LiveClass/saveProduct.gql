@@ -1,0 +1,18 @@
+mutation{
+  saveProduct(
+    courseName:"reactjs",
+    scheduleDateTime:"2020-12-14T06:03:10.597B",
+    pricePerHour:100,
+    seats:50,
+  	postedBy:"5fd1dc6b7dc10a129468e63a"
+  ){
+    id
+    courseName
+    scheduleDateTime
+    pricePerHour
+    users
+    postedBy
+  }
+}
+
+

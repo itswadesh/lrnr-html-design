@@ -1,0 +1,14 @@
+query{
+  products{
+     id
+    courseName
+    scheduleDateTime
+    pricePerHour
+    users
+    seats
+    postedBy
+  }
+}
+
+
+

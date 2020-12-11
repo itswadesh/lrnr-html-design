@@ -1,0 +1,3 @@
+mutation{
+  deleteUser(id:"5fcc7b64c157971b64a14bb8")
+}
